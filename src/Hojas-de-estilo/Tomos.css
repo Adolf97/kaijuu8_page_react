@@ -1,0 +1,49 @@
+.tomos__card {
+  width: 24%;
+  height: auto;
+  padding: 5px;
+  background-color: #5e5e5e;
+  border-radius: 5px;
+}
+.tomos--img__container {
+  margin: auto;
+  width: 95%;
+  height: 380px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.tomos--img__container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.tomos--info__container {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.tomos--info__container > span {
+  width: 100%;
+  padding: 3px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.tomos--info__container > button {
+  width: 40%;
+  font-size: 15px;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #9f0000;
+  border: none;
+  border-radius: 5px;
+}
+.tomos--info__container > button > a {
+  display: block;
+  padding: 8px 2px;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+}

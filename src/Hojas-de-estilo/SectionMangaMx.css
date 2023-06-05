@@ -1,0 +1,36 @@
+.section--mangaMx__container {
+  width: 90%;
+  min-height: 500px;
+  margin: auto;
+  margin-top: 120px;
+}
+.section--mangaMx__titles {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.section--mangaMx__title {
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+.section--mangaMx__info {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.section--mangaMx__tomos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
